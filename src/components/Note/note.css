@@ -1,0 +1,64 @@
+.divNote{
+    margin: auto;
+    margin-top: 20px;
+    width: 650px;
+    background-color: #131419;
+    border: solid 1px;
+    border-color: #1b1b1b;
+    border-radius: 10px;
+}
+
+.divNote.newNote{
+    height: 40px;
+}
+
+.divNote.editNote{
+    height: 350px;
+}
+
+.divNoteTitle{
+    display: block;
+    width: 100%;
+}
+
+.titleNote{
+    margin: 0;
+    margin-left: 2%;
+    /* margin-top: 5px; */
+    font-size: 22px;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 96%;
+}
+
+.divNoteText{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.divNoteText.editNote{
+    height: 90%;
+}
+
+.textNote{
+    margin: 0;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 96%;
+    height: 90%;
+    resize: none;
+    display: block;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.textNote:focus{
+    outline: none;
+}
